@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP Lookup Data" max_length="40" name="x_85997_ip_lookup_ip_lookup_data" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DNS Name" max_length="40" name="dns_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hostname" max_length="40" name="hostname" type="string"/>
+        <element label="IP Address" max_length="40" name="ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Public Address" max_length="40" name="public_address" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+    </element>
+</database>
